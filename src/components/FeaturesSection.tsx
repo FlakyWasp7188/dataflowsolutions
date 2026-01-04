@@ -1,40 +1,40 @@
-import { BarChart2, Bot, Eye, Layers, LineChart, Zap } from "lucide-react";
+import { BarChart3, Bot, Zap, Layers, LineChart, MessageSquare } from "lucide-react";
 
 const features = [
   {
-    icon: Eye,
-    title: "Crystal Clarity",
-    description: "See your data like never before with intuitive visualizations that reveal hidden patterns and trends.",
+    icon: BarChart3,
+    title: "Interactive Dashboards",
+    description: "Visualize trends and KPIs in real time with clean, modern charts that make complex data easy to understand.",
     gradient: "from-primary to-secondary",
   },
   {
-    icon: Bot,
-    title: "AI-Powered Chat",
-    description: "Ask questions in plain English. Our intelligent chatbot translates your queries into actionable insights.",
+    icon: MessageSquare,
+    title: "Chatbot Analysis",
+    description: "Ask questions in plain language and get instant insights powered by AI — no technical expertise required.",
     gradient: "from-secondary to-accent",
   },
   {
     icon: Zap,
-    title: "Real-Time Processing",
-    description: "Lightning-fast analytics that keep pace with your business. No lag, no delays, just instant answers.",
+    title: "Smart Insights",
+    description: "Automatically discover hidden patterns and actionable intelligence from your data.",
     gradient: "from-accent to-primary",
   },
   {
     icon: Layers,
     title: "Unified Dashboard",
-    description: "Connect all your data sources into one beautiful, cohesive view. Simplicity meets power.",
+    description: "Bring all your data sources together into one cohesive view for clarity and confidence.",
     gradient: "from-primary to-accent",
   },
   {
     icon: LineChart,
     title: "Predictive Analytics",
-    description: "Stay ahead of the curve with AI-driven forecasts and trend predictions you can trust.",
+    description: "Stay ahead of the curve with AI‑driven forecasts and trend predictions you can trust.",
     gradient: "from-secondary to-primary",
   },
   {
-    icon: BarChart2,
+    icon: Bot,
     title: "Custom Reports",
-    description: "Generate stunning reports with a click. Share insights with stakeholders in formats they love.",
+    description: "Generate polished reports with a click and share insights in formats stakeholders love.",
     gradient: "from-accent to-secondary",
   },
 ];
@@ -49,12 +49,11 @@ const FeaturesSection = () => {
             Features
           </h2>
           <h3 className="text-3xl md:text-5xl font-bold mb-6">
-            <span className="text-gradient-primary">Clarity</span> meets{" "}
-            <span className="text-gradient-accent">Insight</span>
+            <span className="text-gradient-primary">Data</span> Done{" "}
+            <span className="text-gradient-accent">Right</span>
           </h3>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Every feature is designed to transform complexity into understanding, 
-            helping you make decisions with confidence.
+            Every feature is designed to transform complexity into clarity, helping you make confident decisions.
           </p>
         </div>
         
@@ -66,8 +65,10 @@ const FeaturesSection = () => {
               className="group relative p-6 rounded-2xl glass hover:bg-card/80 transition-all duration-300 hover:-translate-y-1"
             >
               {/* Glow effect on hover */}
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br opacity-0 group-hover:opacity-10 transition-opacity duration-300" 
-                   style={{ backgroundImage: `linear-gradient(to bottom right, var(--tw-gradient-stops))` }} />
+              <div
+                className="absolute inset-0 rounded-2xl bg-gradient-to-br opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+                style={{ backgroundImage: `linear-gradient(to bottom right, var(--tw-gradient-stops))` }}
+              />
               
               {/* Icon */}
               <div className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${feature.gradient} mb-4`}>
