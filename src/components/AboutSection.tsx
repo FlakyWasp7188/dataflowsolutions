@@ -1,10 +1,10 @@
 import { CheckCircle2 } from "lucide-react";
 
 const values = [
-  "Built by data scientists, for everyone",
-  "Privacy-first architecture with enterprise-grade security",
+  "Built by data scientists, designed for everyone",
+  "Privacy‑first architecture with enterprise‑grade security",
   "Open API for seamless integrations",
-  "24/7 support from real humans who care",
+  "Dedicated support from real humans who care",
 ];
 
 const AboutSection = () => {
@@ -50,14 +50,16 @@ const AboutSection = () => {
               Our Mission
             </h2>
             <h3 className="text-3xl md:text-4xl font-bold mb-6">
-              Making data accessible to{" "}
+              Data Done Right — making insights accessible to{" "}
               <span className="text-gradient-accent">everyone</span>
             </h3>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              We believe powerful analytics shouldn't require a PhD. DataFlow was born 
-              from a simple idea: what if understanding your data was as easy as having 
-              a conversation? Our team of data scientists, engineers, and designers 
-              work tirelessly to bridge the gap between complex data and clear decisions.
+              At DataFlow Solutions, we believe powerful analytics shouldn’t require a PhD. 
+              Our mission is simple: transform complex data into crystal‑clear insights. 
+              By combining interactive dashboards with AI‑powered chatbot analysis, we make 
+              understanding your data as easy as having a conversation. Our team of scientists, 
+              engineers, and designers work tirelessly to bridge the gap between raw data 
+              and confident decisions.
             </p>
             
             {/* Values list */}
