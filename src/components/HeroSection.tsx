@@ -18,7 +18,7 @@ const HeroSection = () => {
             <Logo className="scale-150 origin-center" />
           </div>
           
-          {/* Slogan */}
+          {/* Tagline */}
           <h2 className="text-2xl md:text-3xl font-semibold text-gradient-primary mb-6">
             Data Done Right
           </h2>
@@ -32,11 +32,11 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <Button variant="glow" size="lg" className="group">
-              Start Free Trial
+              Explore Features
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="ghost" size="lg">
-              Watch Demo
+              View Demo
             </Button>
           </div>
           
@@ -44,11 +44,11 @@ const HeroSection = () => {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50">
               <BarChart3 className="h-4 w-4 text-primary" />
-              <span className="text-sm">Real-time Analytics</span>
+              <span className="text-sm">Interactive Dashboards</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50">
               <MessageSquare className="h-4 w-4 text-secondary" />
-              <span className="text-sm">AI Chatbot</span>
+              <span className="text-sm">Chatbot Analysis</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50">
               <div className="h-4 w-4 rounded-full bg-gradient-accent" />
