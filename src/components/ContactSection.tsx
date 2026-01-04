@@ -1,4 +1,4 @@
-import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowRight, Mail, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 
 const ContactSection = () => {
@@ -35,13 +35,13 @@ const ContactSection = () => {
           </div>
           
           {/* Contact info cards */}
-          <div className="grid md:grid-cols-3 gap-6 mt-12">
+          <div className="grid md:grid-cols-2 gap-6 mt-12">
             <div className="glass p-6 rounded-2xl text-center group hover:bg-card/80 transition-colors">
               <div className="inline-flex p-3 rounded-xl bg-primary/10 mb-4 group-hover:bg-primary/20 transition-colors">
                 <Mail className="h-6 w-6 text-primary" />
               </div>
               <h4 className="font-semibold mb-1">Email Us</h4>
-              <p className="text-muted-foreground text-sm">hello@dataflow.io</p>
+              <p className="text-muted-foreground text-sm">shetyedevan@gmail.com</p>
             </div>
             
             <div className="glass p-6 rounded-2xl text-center group hover:bg-card/80 transition-colors">
@@ -49,15 +49,7 @@ const ContactSection = () => {
                 <Phone className="h-6 w-6 text-secondary" />
               </div>
               <h4 className="font-semibold mb-1">Call Us</h4>
-              <p className="text-muted-foreground text-sm">+1 (555) 123-4567</p>
-            </div>
-            
-            <div className="glass p-6 rounded-2xl text-center group hover:bg-card/80 transition-colors">
-              <div className="inline-flex p-3 rounded-xl bg-accent/10 mb-4 group-hover:bg-accent/20 transition-colors">
-                <MapPin className="h-6 w-6 text-accent" />
-              </div>
-              <h4 className="font-semibold mb-1">Visit Us</h4>
-              <p className="text-muted-foreground text-sm">San Francisco, CA</p>
+              <p className="text-muted-foreground text-sm">+1 (214) 727-6648</p>
             </div>
           </div>
         </div>
